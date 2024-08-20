@@ -5,21 +5,29 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<style>
-		body {
+		html body {
+			height: 100%;
 			padding: 0;
 			margin: 0;
 			display: flex;
-			justify-content: center;			
+			justify-content: center;
+			align-items: center;
 		}
 
 		#box h1{
 			width: 200px;
 			height: 200px;
-			border: 2px thick black;
+			border: 2px solid black;
+			display: flex;
 			align-content: center;
-			background-color: skyblue;
+			justify-content: center;
+			position: relative;
+			background-color: lightblue;
 			font-size: smaller;
+			color: purple;
+			text-align: center;
 		}
+}
 	</style>
 </head>
 
@@ -27,7 +35,7 @@
 	<!-- the entire body must be written by student -->
 
 	<div id = "box">
-		<center><h1>This is center</h1></center>
+		<h1 class = "header">This is center</h1>
 	</div>
     <script type="text/javascript" src="./script.js">
 </script>
